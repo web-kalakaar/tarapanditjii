@@ -367,7 +367,7 @@
       <div class="m-price"><b>${esc(s.price)}</b><small>Final dakshina depends on the ceremony, duration, location and agreed arrangements. Confirm whether samagri and travel are included.</small></div>
       <p>${esc(s.description)}</p><div class="m-facts">${fact("Approximate duration", s.duration)}${fact("Suitable occasion", s.occasion)}${fact("Preparation", s.prep)}</div>
       ${sam ? `<h3>Samagri and responsibilities</h3><ul class="m-list">${sam}</ul>` : ""}
-      <a class="btn btn-wa btn-lg" style="margin-top:1.5rem" target="_blank" rel="noopener" href="${wa(`Namaste ${D.honorific}, I would like to enquire about ${s.name}. Please share availability and charges.`)}">${waBtn("Enquire about this pooja on WhatsApp")}</a>`;
+      <a class="btn btn-wa btn-lg" style="margin-top:1.5rem" target="_blank" rel="noopener" href="${wa(`Namaste ${D.honorific}, I would like to enquire about ${s.name}. Please share availability and charges.`)}">${waBtn("Enquire on WhatsApp")}</a>`;
     document.body.style.overflow = "hidden";
     modal.showModal();
     $("#modalIn").scrollTop = 0;
