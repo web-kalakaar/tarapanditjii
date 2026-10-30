@@ -48,8 +48,8 @@ window.PANDIT = {
   availability: "Open daily, 7:00 AM to 8:00 PM",
 
   // ---- Contact ----  (WhatsApp: digits only with country code, e.g. 919876543210)
-  whatsapp: "91XXXXXXXXXX",
-  phone: "+91 XXXXX XXXXX",
+  whatsapp: "919413604850",
+  phone: "+91 94136 04850",
   email: "",
   social: { facebook: "", instagram: "", youtube: "" },
 
