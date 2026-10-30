@@ -1,95 +1,300 @@
+
 /* =====================================================================
-   detail.js  —  EDIT ONLY THIS FILE to change Pandit Ji's information.
-   Everything on the website (hero, about, contact, footer, SEO tags,
-   Google structured data, WhatsApp number) reads from this object.
-   Leave a value empty ("" or []) and that part is hidden automatically.
+   detail.js — DEMO DATA
+   All website content is controlled from this file.
+   IMPORTANT: All qualifications, statistics, reviews and profile details
+   below are fictional demo content. Replace before public deployment.
    ===================================================================== */
+
 window.PANDIT = {
+
   // ---- Identity ----
   name: "Dr. Tara Chandra Sharma",
   nameHi: "डॉ. ताराचन्द्र शर्मा",
   honorific: "Pandit Ji",
   title: "Vedic Acharya",
-  titleHi: "वैदिक कर्मकाण्ड एवं पूजा सेवाएँ",
-  photo: "assets/images/pandit-portrait.webp",                 
-  photoAlt: "Dr. Tara Chandra Sharma, Vedic priest in Bharatpur",
+  titleHi: "वैदिक आचार्य एवं कर्मकाण्ड विशेषज्ञ",
+  photo: "assets/images/pandit-portrait.webp",
+  photoAlt: "Pandit Tara Chandra Sharma, Vedic priest",
 
-  // ---- Hero & intro ----
-  announcement: "Now accepting pooja bookings in Bharatpur and nearby cities. Enquire on WhatsApp.",
-  heroHeading: "Every auspicious beginning, guided by Vedic tradition.",
-  heroSub: "Griha Pravesh, Havan, Satyanarayan Katha, Vivah and more, conducted with care, clear guidance and proper vidhi-vidhan for your family.",
-  shortIntro: "Dr. Tara Chandra Sharma conducts pooja and Vedic ceremonies for families in Bharatpur, Rajasthan.",
+  // ---- Hero & Introduction ----
+  announcement: "Bookings Open | Bharatpur, Rajasthan & Nearby Cities",
+  
+  heroHeading: "Every Auspicious Beginning, Guided by Vedic Tradition.",
+  
+  heroSub: "Experience traditional Vedic rituals, sacred ceremonies and spiritual guidance for every important occasion in your family's life.",
+
+  shortIntro: "Bringing families closer to Vedic traditions through meaningful rituals, authentic ceremonies and personalised spiritual guidance.",
+
   bio: [
-    "Dr. Tara Chandra Sharma is dedicated to conducting religious ceremonies with sincerity, care and respect for traditional vidhi-vidhan. From daily puja and Griha Pravesh to havan and family samskaras, his aim is to help every family understand and prepare for each occasion.",
-    "Every ceremony is explained in simple language so that the family can take part with confidence and devotion."
+    "Dr. Tara Chandra Sharma is a dedicated Vedic priest and Acharya with over 18 years of experience in Hindu religious ceremonies, Vedic rituals and traditional karmakand. He specialises in conducting ceremonies with devotion, discipline and respect for ancient traditions.",
+    
+    "From Griha Pravesh and Satyanarayan Katha to Rudrabhishek, Vivah Sanskar and various Shanti Pujas, Pandit Ji helps families celebrate their important occasions with proper vidhi-vidhan.",
+    
+    "His approach focuses on explaining rituals in simple language, helping families understand the significance of each ceremony and participate with complete devotion."
   ],
-  bioHi: "पंडित जी श्रद्धा, सरलता और शास्त्रीय विधि-विधान के साथ हर पूजा सम्पन्न कराते हैं, ताकि परिवार पूरे मन से सहभागी हो सके।",
+
+  bioHi: "डॉ. ताराचन्द्र शर्मा जी वैदिक परंपराओं एवं धार्मिक कर्मकाण्डों के प्रति समर्पित हैं। वे गृह प्रवेश, सत्यनारायण कथा, हवन, विवाह संस्कार एवं विभिन्न धार्मिक अनुष्ठानों को पारंपरिक विधि-विधान के अनुसार सम्पन्न कराते हैं।",
+
   philosophy: "A ceremony should be understood, not just attended.",
 
-  // ---- Profile (leave "" or [] to hide a row) ----
-  experienceYears: "",             // e.g. 15 (number): shown in hero & profile only if filled
-  education: [],                   // e.g. ["Shastri (Sanskrit)", "Acharya (Karmakand)"]
-  sampradaya: "",                  // e.g. "Smarta tradition"
-  vedicKnowledge: "",              // e.g. "Shukla Yajurveda karmakand"
-  languages: ["Hindi", "Sanskrit"],
-  specialisation: ["Griha Pravesh", "Havan & Yajna", "Satyanarayan Katha", "Vivah Sanskar"],
-  ceremoniesCount: "",             // e.g. 500 (number), optional trust stat
+  // ---- Profile ----
+  experienceYears: 18,
 
-  // ---- Location & service area ----
+  education: [
+    "Shastri – Sanskrit Studies",
+    "Acharya – Vedic Karmakand",
+    "Advanced Studies in Hindu Rituals & Sanskrit"
+  ],
+
+  sampradaya: "Smarta Sampradaya",
+
+  vedicKnowledge: "Shukla Yajurveda, Vedic Mantras, Sanskrit and traditional Karmakand",
+
+  languages: [
+    "Hindi",
+    "Sanskrit",
+    "English"
+  ],
+
+  specialisation: [
+    "Griha Pravesh",
+    "Havan & Yajna",
+    "Satyanarayan Katha",
+    "Vivah Sanskar",
+    "Rudrabhishek",
+    "Ganesh Pooja",
+    "Navgraha Shanti",
+    "Mahamrityunjaya Jaap",
+    "Vastu Shanti",
+    "Namkaran Sanskar",
+    "Annaprashan Sanskar",
+    "Mundan Sanskar"
+  ],
+
+  ceremoniesCount: 1200,
+
+  // ---- Location & Service Area ----
   city: "Bharatpur",
   state: "Rajasthan",
   country: "India",
   countryCode: "IN",
   postalCode: "321001",
-  address: "",                     // optional street address
-  latitude: 27.2152, longitude: 77.5030,
-  serviceArea: ["Bharatpur", "Deeg", "Kumher", "Bayana", "Mathura", "Agra", "Dholpur", "Alwar", "Jaipur"],
-  travelNote: "Outstation ceremonies are available. Travel charges are confirmed before booking.",
-  availability: "Open daily, 7:00 AM to 8:00 PM",
 
-  // ---- Contact ----  (WhatsApp: digits only with country code, e.g. 919876543210)
+  address: "Bharatpur, Rajasthan",
+
+  latitude: 27.2152,
+  longitude: 77.5030,
+
+  serviceArea: [
+    "Bharatpur",
+    "Deeg",
+    "Kumher",
+    "Bayana",
+    "Nadbai",
+    "Weir",
+    "Rupbas",
+    "Mathura",
+    "Agra",
+    "Dholpur",
+    "Alwar",
+    "Jaipur"
+  ],
+
+  travelNote: "Available for ceremonies in Bharatpur and nearby cities. Outstation bookings are accepted subject to availability. Travel and accommodation charges, if applicable, are discussed beforehand.",
+
+  availability: "Available daily | 7:00 AM – 8:00 PM",
+
+  // ---- Contact ----
   whatsapp: "919413604850",
   phone: "+91 94136 04850",
-  email: "",
-  social: { facebook: "", instagram: "", youtube: "" },
 
-  // ---- Website / SEO ----
-  siteUrl: "https://divinecenter.in/",   // your real domain, with trailing slash
-  siteName: "Pandit Tara Chandra Sharma Ji",
-  seo: {
-    title: "Pandit Tara Chandra Sharma Ji | Pooja & Vedic Ceremonies in Bharatpur, Rajasthan",
-    description: "Book pooja, havan, Griha Pravesh, Satyanarayan Katha and Vivah Sanskar with Dr. Tara Chandra Sharma, Vedic pandit in Bharatpur, Rajasthan. Enquire on WhatsApp for samagri, availability and charges.",
-    keywords: "pandit in Bharatpur, pandit ji Bharatpur, pooja services Bharatpur, griha pravesh pandit Rajasthan, havan pandit, satyanarayan katha pandit, vivah pandit, Vedic priest India, Hindu priest online booking, online pandit booking"
+  email: "contact@divinecenter.in",
+
+  social: {
+    facebook: "https://www.facebook.com/",
+    instagram: "https://www.instagram.com/",
+    youtube: "https://www.youtube.com/"
   },
 
-  // ---- Page content blocks ----
+  // ---- Website & SEO ----
+  siteUrl: "https://divinecenter.in/",
+
+  siteName: "Pandit Tara Chandra Sharma Ji",
+
+  seo: {
+    title: "Pandit Tara Chandra Sharma Ji | Best Pandit in Bharatpur Rajasthan",
+
+    description: "Book Pandit Tara Chandra Sharma Ji for Griha Pravesh, Satyanarayan Katha, Havan, Vivah Sanskar, Rudrabhishek and other Vedic pooja services in Bharatpur, Rajasthan. Contact on WhatsApp for bookings.",
+
+    keywords: "Pandit in Bharatpur, Best Pandit Ji Bharatpur, Pandit Tara Chandra Sharma, Pooja Services Bharatpur, Griha Pravesh Pandit, Havan Pandit, Satyanarayan Katha, Vivah Sanskar, Rudrabhishek, Vedic Acharya Rajasthan"
+  },
+
+  // ---- Why Choose Pandit Ji ----
   why: [
-    { t: "Traditional, explained clearly", d: "Rituals, preparation and requirements are described in language families can follow." },
-    { t: "Clear arrangements first", d: "Date, time, location, duration, dakshina and samagri responsibility are confirmed before the ceremony." },
-    { t: "Local and outstation", d: "Serving Bharatpur and nearby cities, with travel details agreed in advance." }
+    {
+      t: "18+ Years of Experience",
+      d: "Extensive experience in traditional Hindu rituals, Vedic ceremonies and family samskaras."
+    },
+    {
+      t: "Traditional Vedic Practices",
+      d: "Ceremonies conducted with respect for traditional mantras, rituals and proper vidhi-vidhan."
+    },
+    {
+      t: "Clear Guidance",
+      d: "Every family receives guidance about the ceremony, its significance and preparation."
+    },
+    {
+      t: "Transparent Arrangements",
+      d: "Dakshina, samagri requirements and additional expenses are discussed before booking."
+    },
+    {
+      t: "Local & Outstation Services",
+      d: "Pooja services available in Bharatpur and selected nearby cities."
+    },
+    {
+      t: "Personal Attention",
+      d: "Every ceremony is planned according to the family's requirements and preferred traditions."
+    }
   ],
+
+  // ---- Booking Steps ----
   steps: [
-    { t: "Choose your pooja", d: "Browse services and open the details." },
-    { t: "Send an enquiry", d: "Share the ceremony, preferred date, location and requirements on WhatsApp." },
-    { t: "Confirm arrangements", d: "Pandit Ji confirms availability, price, samagri and any travel costs." },
-    { t: "Perform the ceremony", d: "Family and Pandit Ji follow the agreed schedule and preparation." }
+    {
+      t: "Choose Your Pooja",
+      d: "Explore the available poojas, ceremonies and their details."
+    },
+    {
+      t: "Send Your Enquiry",
+      d: "Share your ceremony name, preferred date, location and special requirements on WhatsApp."
+    },
+    {
+      t: "Confirm Arrangements",
+      d: "Discuss muhurat, availability, dakshina, samagri and travel arrangements."
+    },
+    {
+      t: "Perform the Ceremony",
+      d: "Pandit Ji conducts the agreed ceremony following traditional procedures."
+    }
   ],
-  samagriIntro: "Every pooja lists each item as included, family to arrange, or available at extra cost, so nothing is a surprise on the day.",
+
+  // ---- Samagri ----
+  samagriIntro: "Every pooja includes a detailed samagri checklist so families know exactly what is required. Items can be arranged by Pandit Ji or the family according to the agreed package.",
+
   samagriLegend: [
-    { k: "included", t: "Included", d: "Brought by Pandit Ji as part of the package." },
-    { k: "family",   t: "Family arranges", d: "Items the family keeps ready before the ceremony." },
-    { k: "extra",    t: "Extra cost", d: "Available on request at an additional charge." }
+    {
+      k: "included",
+      t: "Included",
+      d: "Provided by Pandit Ji as part of the confirmed package."
+    },
+    {
+      k: "family",
+      t: "Family Arranges",
+      d: "Items the family needs to arrange before the ceremony."
+    },
+    {
+      k: "extra",
+      t: "Additional Cost",
+      d: "Available on request at an additional charge."
+    }
   ],
-  // Add real photos: { src: "assets/images/gallery/havan-1.webp", alt: "Havan ceremony", caption: "Havan" }
-  gallery: [],
-  // Add only genuine reviews given with permission: { name: "R. Singh", ceremony: "Griha Pravesh", text: "..." }
-  testimonials: [],
+
+  // ---- Gallery ----
+  gallery: [
+    {
+      src: "assets/images/s1.webp",
+      alt: "Traditional Vedic Havan ceremony",
+      caption: "Vedic Havan"
+    },
+    {
+      src: "assets/images/s2.webp",
+      alt: "Traditional Hindu pooja arrangements",
+      caption: "Traditional Pooja"
+    },
+    {
+      src: "assets/images/s3.webp",
+      alt: "Griha Pravesh ceremony",
+      caption: "Griha Pravesh"
+    },
+    {
+      src: "assets/images/s3.webp",
+      alt: "Satyanarayan Katha ceremony",
+      caption: "Satyanarayan Katha"
+    },
+    {
+      src: "assets/images/s4.webp",
+      alt: "Traditional Hindu wedding rituals",
+      caption: "Vivah Sanskar"
+    },
+    {
+      src: "assets/images/s2.webp",
+      alt: "Rudrabhishek pooja",
+      caption: "Rudrabhishek"
+    }
+  ],
+
+  // ---- Testimonials ----
+  testimonials: [
+    {
+      name: "Amit Sharma",
+      ceremony: "Griha Pravesh",
+      text: "The entire ceremony was conducted beautifully. The rituals and their significance were explained clearly, making the experience meaningful for our family."
+    },
+    {
+      name: "Priya Agarwal",
+      ceremony: "Satyanarayan Katha",
+      text: "We appreciated the proper arrangements, traditional mantras and guidance throughout the pooja. A very peaceful experience."
+    },
+    {
+      name: "Rahul Gupta",
+      ceremony: "Havan & Yajna",
+      text: "The ceremony was organised with great care and attention to traditional procedures. All our questions were answered patiently."
+    }
+  ],
+
+  // ---- Frequently Asked Questions ----
   faqs: [
-    { q: "How much does a pooja cost?", a: "The dakshina depends on the ceremony, duration, location and arrangements. Send an enquiry on WhatsApp and Pandit Ji will confirm the total before booking." },
-    { q: "Does Pandit Ji bring the samagri?", a: "Either way works. You can ask Pandit Ji to arrange it, arrange it yourself, or split it. Every pooja lists what is included, what the family arranges, and what costs extra." },
-    { q: "Can I book a pooja for a specific date?", a: "Yes. Share your preferred date and muhurat in the enquiry and Pandit Ji will confirm availability." },
-    { q: "Does Pandit Ji travel outside Bharatpur?", a: "Yes, to the areas listed under service area. Travel charges, if any, are confirmed before booking." },
-    { q: "How early should I enquire?", a: "As early as possible, especially for weddings and festival dates. Simple pujas can often be arranged at short notice, subject to availability." },
-    { q: "Can I request a particular ritual or tradition?", a: "Yes. Tell Pandit Ji about your family tradition or requirements and the ceremony will be planned around them." }
+    {
+      q: "How can I book Pandit Ji for a pooja?",
+      a: "You can contact Pandit Ji directly through WhatsApp. Share your pooja name, preferred date, location and requirements to discuss availability."
+    },
+    {
+      q: "How much does a pooja cost?",
+      a: "Dakshina depends on the ceremony, duration, location and arrangements. Contact Pandit Ji for a quotation before confirming your booking."
+    },
+    {
+      q: "Does Pandit Ji provide pooja samagri?",
+      a: "Samagri arrangements can be discussed during booking. Depending on the ceremony, items may be provided by Pandit Ji, arranged by the family or available at additional cost."
+    },
+    {
+      q: "Can I book a pooja for a specific date?",
+      a: "Yes. Share your preferred date and muhurat. Booking is subject to availability and confirmation."
+    },
+    {
+      q: "Does Pandit Ji travel outside Bharatpur?",
+      a: "Yes, outstation ceremonies can be arranged in selected nearby cities, subject to availability. Applicable travel charges are discussed beforehand."
+    },
+    {
+      q: "How early should I book a ceremony?",
+      a: "Early enquiries are recommended, especially for weddings, festivals and auspicious dates. Short-notice bookings may also be possible depending on availability."
+    },
+    {
+      q: "Can I request a particular family tradition?",
+      a: "Yes. Share your family tradition, preferred rituals and specific requirements during the initial enquiry."
+    },
+    {
+      q: "Can Pandit Ji perform pooja at my home?",
+      a: "Yes. Home ceremonies can be arranged in Bharatpur and selected nearby locations, subject to availability."
+    },
+    {
+      q: "Can Pandit Ji help with muhurat?",
+      a: "You can discuss your preferred date and muhurat requirements with Pandit Ji during the initial enquiry."
+    },
+    {
+      q: "How can I confirm my booking?",
+      a: "Once the date, location, ceremony, dakshina and samagri arrangements are agreed upon, Pandit Ji will confirm the booking."
+    }
   ]
+
 };
+ 
