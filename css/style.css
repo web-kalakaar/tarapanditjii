@@ -1430,3 +1430,18 @@ legend {
     grid-template-columns: 1fr;
   }
 }
+.learn-intro{max-width:620px}
+.learn-list{list-style:none;margin:24px 0 0;padding:0;border-top:1px solid var(--gold,#C39A47)}
+.learn-item{display:grid;grid-template-columns:1fr 1.5fr auto;gap:8px 28px;align-items:center;
+  padding:20px 4px;border-bottom:1px solid #e3d6b8}
+.learn-item h3{margin:0;font-size:1.5rem}
+.learn-item .hi{margin:0;color:var(--gold,#C39A47)}
+.learn-item p{margin:0}
+.learn-meta{font-size:.9rem;opacity:.8;margin-top:4px}
+.learn-fee{text-align:right;white-space:nowrap;font-weight:600;color:var(--maroon,#702B2B)}
+.learn-fee small{display:block;font-weight:400;opacity:.75}
+.learn-note{margin-top:16px;font-size:.9rem;opacity:.8}
+@media (max-width:767px){
+  .learn-item{grid-template-columns:1fr;gap:6px}
+  .learn-fee{text-align:left}
+}
